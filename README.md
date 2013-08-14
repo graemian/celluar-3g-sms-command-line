@@ -21,5 +21,5 @@ Example:
 
     [root@shark sms]$ ./sendsms.sh +27834151642 "Dude, where's my car?"
     [root@shark sms]$ ./checksms.sh 
-    "+27834151642","13/08/14,12:02:33+08","Where's your car dude"
+    "+27834151642","13/08/14,12:02:33+08","Where's your car dude?"
     [root@shark sms]$
