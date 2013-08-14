@@ -13,4 +13,11 @@ http://n00bsys0p.co.uk/blog/2012/07/09/sending-recieving-sms-3g-device-linux
 
 by n00bsys0p
 
-Requires csvfix fromhttps://code.google.com/p/csvfix/
+Requires csvfix from https://code.google.com/p/csvfix/
+
+Example:
+
+[root@shark sms]$ ./sendsms.sh +27834151642 "Dude, where's my car?"
+[root@shark sms]$ ./checksms.sh 
+"+27834151642","13/08/14,12:02:33+08","Where's your car dude"
+[root@shark sms]$
