@@ -28,7 +28,7 @@ grep "^+CMGL" $TMP | while read LINE; do
   NUMBER=`echo $HEADER | ./csvfix order -f 3` 
   DATE=`echo $HEADER | ./csvfix order -f 5` 
 
-  echo $NUMBER,$DATE,\"${TEXT%?}\" | tee -a $MSGLOG
+  echo "$NUMBER,$DATE,\"${TEXT%?}\"" | tee -a $MSGLOG
   chat -Vs TIMEOUT 6 "" "AT+CMGD=$MSGNO" "OK" > /dev/modem < /dev/modem 2>> $LOG
 
 done
