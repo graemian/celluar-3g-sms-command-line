@@ -12,3 +12,5 @@ by tkibowen@googlemail.com, and
 http://n00bsys0p.co.uk/blog/2012/07/09/sending-recieving-sms-3g-device-linux
 
 by n00bsys0p
+
+Requires csvfix fromhttps://code.google.com/p/csvfix/
